@@ -19,6 +19,14 @@ var (
 	debug   bool
 )
 
+type Payload struct {
+	Prefix string
+	Source string
+	Output string
+	Force  bool
+	Debug  bool
+}
+
 func main() {
 	cli.HelpFlag = cli.BoolFlag{
 		Name:  "help, h",
@@ -87,7 +95,16 @@ func main() {
 			path.Base(source),
 		).Funcs(
 			template.FuncMap{
-				"get": viper.Get,
+				"Get":                viper.Get,
+				"GetBool":            viper.GetBool,
+				"GetFloat64":         viper.GetFloat64,
+				"GetInt":             viper.GetInt,
+				"GetString":          viper.GetString,
+				"GetStringMap":       viper.GetStringMap,
+				"GetStringMapString": viper.GetStringMapString,
+				"GetTime":            viper.GetTime,
+				"GetDuration":        viper.GetDuration,
+				"IsSet":              viper.IsSet,
 			},
 		).ParseFiles(
 			source,
@@ -126,12 +143,4 @@ func main() {
 	}
 
 	app.Run(os.Args)
-}
-
-type Payload struct {
-	Prefix string
-	Source string
-	Output string
-	Force  bool
-	Debug  bool
 }
