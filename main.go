@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"io"
 	"os"
 	"path"
 	"text/template"
@@ -15,7 +17,6 @@ var (
 	prefix  string
 	source  string
 	output  string
-	force   bool
 	debug   bool
 )
 
@@ -23,7 +24,6 @@ type Payload struct {
 	Prefix string
 	Source string
 	Output string
-	Force  bool
 	Debug  bool
 }
 
@@ -61,12 +61,6 @@ func main() {
 			EnvVar:      "TEMPLATER_OUTPUT",
 			Destination: &output,
 			Value:       "",
-		},
-		cli.BoolFlag{
-			Name:        "force, f",
-			Usage:       "Force to overwrite the output",
-			EnvVar:      "TEMPLATER_FORCE",
-			Destination: &force,
 		},
 		cli.BoolFlag{
 			Name:        "debug, d",
@@ -120,13 +114,40 @@ func main() {
 			os.Exit(1)
 		}
 
+		var handle io.Writer
+
+		if output == "" {
+			handle = os.Stdout
+		} else {
+			var err error
+
+			handle, err = os.Create(
+				output,
+			)
+
+			if err != nil {
+				fmt.Println("Failed to write config")
+
+				if debug {
+					fmt.Println(err)
+				}
+
+				os.Exit(2)
+			}
+		}
+
+		writer := bufio.NewWriter(
+			handle,
+		)
+
+		defer writer.Flush()
+
 		exe := tmpl.Execute(
-			os.Stdout,
+			writer,
 			&Payload{
 				Prefix: prefix,
 				Source: source,
 				Output: output,
-				Force:  force,
 				Debug:  debug,
 			},
 		)
@@ -138,7 +159,7 @@ func main() {
 				fmt.Println(exe)
 			}
 
-			os.Exit(2)
+			os.Exit(3)
 		}
 	}
 
