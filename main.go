@@ -6,7 +6,9 @@ import (
 	"io"
 	"os"
 	"path"
+	"strings"
 	"text/template"
+	"time"
 
 	"github.com/codegangsta/cli"
 	"github.com/spf13/viper"
@@ -89,16 +91,23 @@ func main() {
 			path.Base(source),
 		).Funcs(
 			template.FuncMap{
-				"Get":                viper.Get,
-				"GetBool":            viper.GetBool,
-				"GetFloat64":         viper.GetFloat64,
-				"GetInt":             viper.GetInt,
-				"GetString":          viper.GetString,
-				"GetStringMap":       viper.GetStringMap,
-				"GetStringMapString": viper.GetStringMapString,
-				"GetTime":            viper.GetTime,
-				"GetDuration":        viper.GetDuration,
-				"IsSet":              viper.IsSet,
+				"envGet":      viper.Get,
+				"envBool":     viper.GetBool,
+				"envFloat":    viper.GetFloat64,
+				"envInt":      viper.GetInt,
+				"envString":   viper.GetString,
+				"envTime":     viper.GetTime,
+				"envDuration": viper.GetDuration,
+				"envIsSet":    viper.IsSet,
+				"base":        path.Base,
+				"dir":         path.Dir,
+				"datetime":    time.Now,
+				"split":       strings.Split,
+				"join":        strings.Join,
+				"toUpper":     strings.ToUpper,
+				"toLower":     strings.ToLower,
+				"contains":    strings.Contains,
+				"replace":     strings.Replace,
 			},
 		).ParseFiles(
 			source,
