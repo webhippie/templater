@@ -6,7 +6,7 @@
 Templater is used by our docker containers to provide a functionality for clean
 templating based on the golang `text/template` package. The variables are always
 provided through environment variables. Before we integrated templater every
-template have been handled by `envsubst` which doesn't provide any control
+template has been handled by `envsubst` which doesn't provide any control
 structures.
 
 
