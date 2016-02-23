@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.3](https://github.com/webhippie/templater/releases/tag/v0.0.3) - 2016-02-23
+
+* ENHANCEMENT
+  * Added vendored dependencies based on govend
+
 ## [0.0.2](https://github.com/webhippie/templater/releases/tag/v0.0.2) - 2015-12-27
 
 * BREAKING
