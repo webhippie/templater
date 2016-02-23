@@ -4,6 +4,7 @@
 
 * ENHANCEMENT
   * Added vendored dependencies based on govend
+  * Multiple Makefile improvements
 
 ## [0.0.2](https://github.com/webhippie/templater/releases/tag/v0.0.2) - 2015-12-27
 
