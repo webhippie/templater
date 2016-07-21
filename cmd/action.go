@@ -15,6 +15,7 @@ import (
 	"github.com/webhippie/templater/config"
 )
 
+// Action is the general handle for this CLI tool.
 func Action() func(*cli.Context) {
 	return func(c *cli.Context) {
 		if len(c.Args()) == 0 {

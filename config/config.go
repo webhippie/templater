@@ -1,9 +1,18 @@
 package config
 
 var (
+	// Update determines if automated updates are enabled.
 	Update bool
+
+	// Prefix defines the prefix for the environment variables.
 	Prefix string
+
+	// Source defines the source file to parse and read.
 	Source string
+
+	// Output defines the destination path for the processed.
 	Output string
-	Debug  bool
+
+	// Debug enables or disables the debugging mode.
+	Debug bool
 )
