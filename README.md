@@ -3,7 +3,7 @@
 [![Build Status](http://github.dronehippie.de/api/badges/webhippie/templater/status.svg)](http://github.dronehippie.de/webhippie/templater)
 [![Go Doc](https://godoc.org/github.com/webhippie/templater?status.svg)](http://godoc.org/github.com/webhippie/templater)
 [![Go Report](http://goreportcard.com/badge/github.com/webhippie/templater)](http://goreportcard.com/report/github.com/webhippie/templater)
-[![](https://images.microbadger.com/badges/image/webhippie/templater.svg)](http://microbadger.com/images/webhippie/templater "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/tboerger/templater.svg)](http://microbadger.com/images/tboerger/templater "Get your own image badge on microbadger.com")
 [![Join the chat at https://gitter.im/webhippie/general](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/webhippie/general)
 [![Stories in Ready](https://badge.waffle.io/webhippie/templater.svg?label=ready&title=Ready)](http://waffle.io/webhippie/templater)
 
