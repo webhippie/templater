@@ -10,15 +10,15 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/codegangsta/cli"
 	"github.com/spf13/viper"
 	"github.com/webhippie/templater/config"
+	"gopkg.in/urfave/cli.v2"
 )
 
 // Action is the general handle for this CLI tool.
-func Action() func(*cli.Context) {
-	return func(c *cli.Context) {
-		if len(c.Args()) == 0 {
+func Action() cli.ActionFunc {
+	return func(c *cli.Context) error {
+		if c.Args().Len() == 0 {
 			cli.ShowAppHelp(c)
 			os.Exit(1)
 		} else {
@@ -119,5 +119,7 @@ func Action() func(*cli.Context) {
 
 			os.Exit(3)
 		}
+
+		return nil
 	}
 }

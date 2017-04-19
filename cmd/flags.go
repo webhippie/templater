@@ -1,37 +1,38 @@
 package cmd
 
 import (
-	"github.com/codegangsta/cli"
 	"github.com/webhippie/templater/config"
+	"gopkg.in/urfave/cli.v2"
 )
 
 // Flags defines all available flags for this command.
 func Flags() []cli.Flag {
 	return []cli.Flag{
-		cli.BoolTFlag{
+		&cli.BoolFlag{
 			Name:        "update, u",
+			Value:       true,
 			Usage:       "Enable auto updates",
-			EnvVar:      "TEMPLATER_UPDATE",
+			EnvVars:     []string{"TEMPLATER_UPDATE"},
 			Destination: &config.Update,
 		},
-		cli.StringFlag{
+		&cli.StringFlag{
 			Name:        "prefix, p",
 			Usage:       "Prefix of the environemt variables",
-			EnvVar:      "TEMPLATER_PREFIX",
+			EnvVars:     []string{"TEMPLATER_PREFIX"},
 			Destination: &config.Prefix,
 			Value:       "",
 		},
-		cli.StringFlag{
+		&cli.StringFlag{
 			Name:        "output, o",
 			Usage:       "Different output than STDOUT",
-			EnvVar:      "TEMPLATER_OUTPUT",
+			EnvVars:     []string{"TEMPLATER_OUTPUT"},
 			Destination: &config.Output,
 			Value:       "",
 		},
-		cli.BoolFlag{
+		&cli.BoolFlag{
 			Name:        "debug, d",
 			Usage:       "Print a bit more debug output",
-			EnvVar:      "TEMPLATER_DEBUG",
+			EnvVars:     []string{"TEMPLATER_DEBUG"},
 			Destination: &config.Debug,
 		},
 	}
