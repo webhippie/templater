@@ -1,0 +1,11 @@
+---
+generate:
+  prefix: ENVIRONMENT_PREFIX
+  output: output.file
+
+log:
+  level: info
+  pretty: true
+  color: true
+
+...

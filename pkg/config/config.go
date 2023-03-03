@@ -1,15 +1,25 @@
 package config
 
-var (
-	// Prefix defines the prefix for the environment variables.
-	Prefix string
+// Generate defines the generate configuration.
+type Generate struct {
+	Prefix string `mapstructure:"prefix"`
+	Output string `mapstructure:"output"`
+}
 
-	// Source defines the source file to parse and read.
-	Source string
+// Logs defines the level and color for log configuration.
+type Logs struct {
+	Level  string `mapstructure:"level"`
+	Pretty bool   `mapstructure:"pretty"`
+	Color  bool   `mapstructure:"color"`
+}
 
-	// Output defines the destination path for the processed.
-	Output string
+// Config defines the general configuration.
+type Config struct {
+	Generate Generate `mapstructure:"generate"`
+	Logs     Logs     `mapstructure:"log"`
+}
 
-	// Debug enables or disables the debugging mode.
-	Debug bool
-)
+// Load initializes a default configuration struct.
+func Load() *Config {
+	return &Config{}
+}

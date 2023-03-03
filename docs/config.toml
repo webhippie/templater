@@ -1,6 +1,10 @@
 baseURL = "https://webhippie.github.io/templater/"
 languageCode = "en-us"
 title = "Templater"
+pygmentsUseClasses = true
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [blackfriday]
   angledQuotes = true
@@ -11,5 +15,5 @@ title = "Templater"
 
 [params]
   author = "Thomas Boerger"
-  description = "A template processor for environment variables"
-  keywords = "template, environment, processor"
+  description = "Template processor for env variables"
+  keywords = "templates, environment, variables"
