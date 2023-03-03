@@ -4,7 +4,7 @@ RUN apk add --no-cache ca-certificates mailcap
 FROM scratch
 
 ENTRYPOINT ["/usr/bin/templater"]
-CMD ["help"]
+CMD ["generate"]
 
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=build /etc/mime.types /etc/

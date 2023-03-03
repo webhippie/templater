@@ -14,7 +14,10 @@ packages for the major distributions later if we see the need for it.
 
 ### Docker
 
-TBD
+Generally we are offering the images through
+[quay.io/webhippie/templater][quay] and [webhippie/templater][dockerhub], so
+feel free to choose one of the providers. Maybe we will come up with Kustomize
+manifests or some Helm chart.
 
 ### Binaries
 
@@ -44,6 +47,14 @@ TEMPLATER_LOG_COLOR
 TEMPLATER_LOG_PRETTY
 : Enable pretty logging, defaults to `true`
 
+#### Generate
+
+TEMPLATER_GENERATE_PREFIX
+: Prefix of the env variables
+
+TEMPLATER_GENERATE_OUTPUT
+: Different output than stdout
+
 ### Commandline flags
 
 If you prefer to configure the service with commandline flags you can see the
@@ -59,6 +70,14 @@ available variables below.
 
 --log-pretty
 : Enable pretty logging, defaults to `true`
+
+#### Generate
+
+--prefix
+: Prefix of the env variables
+
+--output
+: Different output than stdout
 
 ### Configuration file
 
@@ -78,5 +97,7 @@ formated help output if you execute the binary similar to something like
  `templater --help`.
 
 [docker]: https://www.docker.com/
+[quay]: https://quay.io/repository/webhippie/templater
+[dockerhub]: https://hub.docker.com/r/webhippie/templater
 [downloads]: https://dl.webhippie.de/
 [repo]: https://github.com/webhippie/templater/tree/master/config
