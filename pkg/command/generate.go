@@ -2,6 +2,7 @@ package command
 
 import (
 	"bufio"
+	"fmt"
 	"html/template"
 	"io"
 	"os"
@@ -19,8 +20,14 @@ var (
 		Use:     "generate [template]",
 		Aliases: []string{"gen"},
 		Short:   "Generate output from template",
-		Args:    cobra.ExactArgs(1),
 		Run:     generateAction,
+		Args: func(cmd *cobra.Command, args []string) error {
+			if len(args) != 1 {
+				return fmt.Errorf("missing template argument")
+			}
+
+			return nil
+		},
 	}
 
 	defaultGeneratePrefix = ""
