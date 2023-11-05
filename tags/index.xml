@@ -5,6 +5,7 @@
     <link>https://webhippie.github.io/templater/tags/</link>
     <description>Recent content in Tags on Templater</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://webhippie.github.io/templater/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://webhippie.github.io/templater/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
