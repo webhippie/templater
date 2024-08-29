@@ -21,7 +21,7 @@ var (
 		Aliases: []string{"gen"},
 		Short:   "Generate output from template",
 		Run:     generateAction,
-		Args: func(cmd *cobra.Command, args []string) error {
+		Args: func(_ *cobra.Command, args []string) error {
 			if len(args) != 1 {
 				return fmt.Errorf("missing template argument")
 			}
