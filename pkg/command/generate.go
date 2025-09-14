@@ -39,11 +39,11 @@ func init() {
 
 	generateCmd.PersistentFlags().String("prefix", defaultGeneratePrefix, "Prefix of the env variables")
 	viper.SetDefault("generate.prefix", defaultGeneratePrefix)
-	viper.BindPFlag("generate.prefix", generateCmd.PersistentFlags().Lookup("prefix"))
+	_ = viper.BindPFlag("generate.prefix", generateCmd.PersistentFlags().Lookup("prefix"))
 
 	generateCmd.PersistentFlags().String("output", defaultGenerateOutput, "Different output than stdout")
 	viper.SetDefault("generate.output", defaultGenerateOutput)
-	viper.BindPFlag("generate.output", generateCmd.PersistentFlags().Lookup("output"))
+	_ = viper.BindPFlag("generate.output", generateCmd.PersistentFlags().Lookup("output"))
 }
 
 func generateAction(_ *cobra.Command, args []string) {
@@ -118,7 +118,7 @@ func generateAction(_ *cobra.Command, args []string) {
 		handle,
 	)
 
-	defer writer.Flush()
+	defer func() { _ = writer.Flush() }()
 
 	if exe := tmpl.Execute(
 		writer,
