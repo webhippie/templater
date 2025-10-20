@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.2](https://github.com/webhippie/templater/compare/v2.1.1...v2.1.2) (2025-10-20)
+
+
+### Bugfixes
+
+* **deps:** update golang:1.25.3-alpine3.21 docker digest to 0c9f3e0 ([#117](https://github.com/webhippie/templater/issues/117)) ([917b875](https://github.com/webhippie/templater/commit/917b87576bb63ae9f19db65fdbef00123b335de8))
+* **patch:** update golang docker tag to v1.25.3 ([#114](https://github.com/webhippie/templater/issues/114)) ([dbedfa1](https://github.com/webhippie/templater/commit/dbedfa14e7349324f6787aa8457d9cc8ec074af9))
+
 ## [2.1.1](https://github.com/webhippie/templater/compare/v2.1.0...v2.1.1) (2025-10-13)
 
 
