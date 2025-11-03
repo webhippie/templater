@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/webhippie/templater/compare/v2.1.2...v2.2.0) (2025-11-03)
+
+
+### Features
+
+* **minor:** update module github.com/golangci/golangci-lint/v2 to v2.6.0 ([#121](https://github.com/webhippie/templater/issues/121)) ([d549aeb](https://github.com/webhippie/templater/commit/d549aeb561b57fff364d123967f2251c7adab1b1))
+
 ## [2.1.2](https://github.com/webhippie/templater/compare/v2.1.1...v2.1.2) (2025-10-20)
 
 
