@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.2.1](https://github.com/webhippie/templater/compare/v2.2.0...v2.2.1) (2025-11-17)
+
+
+### Bugfixes
+
+* **deps:** update golang:1.25.4-alpine3.21 docker digest to 3289aac ([#126](https://github.com/webhippie/templater/issues/126)) ([1ac2853](https://github.com/webhippie/templater/commit/1ac2853928d0ec81787ccd22f6222f1d79c2b82f))
+* **patch:** update golang docker tag to v1.25.4 ([#125](https://github.com/webhippie/templater/issues/125)) ([fa859ad](https://github.com/webhippie/templater/commit/fa859adff8b4e3c8bc277fc2f20b23c305278582))
+* **patch:** update module github.com/golangci/golangci-lint/v2 to v2.6.1 ([#122](https://github.com/webhippie/templater/issues/122)) ([5454dda](https://github.com/webhippie/templater/commit/5454ddac67b84103dda0e7b5114646d947e5d788))
+* **patch:** update module github.com/golangci/golangci-lint/v2 to v2.6.2 ([#128](https://github.com/webhippie/templater/issues/128)) ([e39d0df](https://github.com/webhippie/templater/commit/e39d0df1e3964c6e029592b9c8c8c49e39555b2a))
+
 ## [2.2.0](https://github.com/webhippie/templater/compare/v2.1.2...v2.2.0) (2025-11-03)
 
 
