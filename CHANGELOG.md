@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.3.0](https://github.com/webhippie/templater/compare/v2.2.1...v2.3.0) (2025-12-08)
+
+
+### Features
+
+* **minor:** update alpine docker tag to v3.23 ([#141](https://github.com/webhippie/templater/issues/141)) ([f195c50](https://github.com/webhippie/templater/commit/f195c50a1c367b9a98f3d99950925c4ebe3ffa4b))
+* **minor:** update module github.com/golangci/golangci-lint/v2 to v2.7.0 ([#140](https://github.com/webhippie/templater/issues/140)) ([6f3637a](https://github.com/webhippie/templater/commit/6f3637ab29c68b6f63129a8a5590c1bf036ece5e))
+
+
+### Bugfixes
+
+* **patch:** update golang docker tag to v1.25.5 ([#138](https://github.com/webhippie/templater/issues/138)) ([17715a2](https://github.com/webhippie/templater/commit/17715a2329e19be0cbbd9417c7433b57691993fe))
+* **patch:** update module github.com/spf13/cobra to v1.10.2 ([#142](https://github.com/webhippie/templater/issues/142)) ([dbdc5e5](https://github.com/webhippie/templater/commit/dbdc5e5e5eed1a507fb3e861b315c9e4d4e36c0c))
+
 ## [2.2.1](https://github.com/webhippie/templater/compare/v2.2.0...v2.2.1) (2025-11-17)
 
 
