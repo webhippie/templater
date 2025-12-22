@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.1](https://github.com/webhippie/templater/compare/v2.3.0...v2.3.1) (2025-12-22)
+
+
+### Bugfixes
+
+* **deps:** update alpine:3.23 docker digest to 865b95f ([#151](https://github.com/webhippie/templater/issues/151)) ([f5264d3](https://github.com/webhippie/templater/commit/f5264d38824e5759ac783076145570cd73151e1a))
+* **deps:** update alpine:3.23 docker digest to be171b5 ([#150](https://github.com/webhippie/templater/issues/150)) ([0d7412f](https://github.com/webhippie/templater/commit/0d7412fe8f65cd916c2a256d4ac7dcbad349b174))
+
 ## [2.3.0](https://github.com/webhippie/templater/compare/v2.2.1...v2.3.0) (2025-12-08)
 
 
