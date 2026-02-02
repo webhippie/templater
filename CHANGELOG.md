@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.3.2](https://github.com/webhippie/templater/compare/v2.3.1...v2.3.2) (2026-02-02)
+
+### Bugfixes
+
+* **deps:** update alpine:3.23 docker digest to 2510918 ([#160](https://github.com/webhippie/templater/issues/160)) ([9a4946c](https://github.com/webhippie/templater/commit/9a4946cfd0422b92fb04de3f5449306ea185d510))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([92f7c5b](https://github.com/webhippie/templater/commit/92f7c5b0b2c59ce03ca3c8758ef075ce112599eb))
+* **flake:** updated lockfile [skip ci] ([e67a665](https://github.com/webhippie/templater/commit/e67a665ab949f24b46e85e47af818b3865aeedfe))
+* **flake:** updated lockfile [skip ci] ([1b484f3](https://github.com/webhippie/templater/commit/1b484f36274c3a27907dfb2f3e57e5eac1020242))
+* **flake:** updated lockfile [skip ci] ([68b3495](https://github.com/webhippie/templater/commit/68b34957f77c1834551549db8e9b90f90cb65cd9))
+* **flake:** updated lockfile [skip ci] ([bcf5d7b](https://github.com/webhippie/templater/commit/bcf5d7b6c3e8ed591a601ee4712958a4e6b441cb))
+* **flake:** updated lockfile [skip ci] ([02b56bc](https://github.com/webhippie/templater/commit/02b56bccf1d1864ab729e353d43ac9d08c631bec))
+
 ## [2.3.1](https://github.com/webhippie/templater/compare/v2.3.0...v2.3.1) (2025-12-22)
 
 
