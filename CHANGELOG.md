@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.4.0](https://github.com/webhippie/templater/compare/v2.3.2...v2.4.0) (2026-03-30)
+
+### Dependencies
+
+* **minor:** update module github.com/rs/zerolog to v1.35.0 ([#172](https://github.com/webhippie/templater/issues/172)) ([2780eca](https://github.com/webhippie/templater/commit/2780eca5995a540f9fc5d59a420e82f8c7eb71dd))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([8bbec71](https://github.com/webhippie/templater/commit/8bbec71546259b5fed8d19da9ed6140241304d66))
+* **flake:** updated lockfile [skip ci] ([7821aaf](https://github.com/webhippie/templater/commit/7821aafa62a389b15cbcb8638025c47970557e4e))
+* **flake:** updated lockfile [skip ci] ([f5815f9](https://github.com/webhippie/templater/commit/f5815f9ab0254b90ad872d87676c2deb83a79dd1))
+* **flake:** updated lockfile [skip ci] ([bf6fd5d](https://github.com/webhippie/templater/commit/bf6fd5d4fd2b0fde4e95a88eca54e8be3cd9aa2e))
+* **flake:** updated lockfile [skip ci] ([b56b5c9](https://github.com/webhippie/templater/commit/b56b5c91fd1c19ef80466284991ec07ee6f0dd39))
+* **flake:** updated lockfile [skip ci] ([0fcf8da](https://github.com/webhippie/templater/commit/0fcf8da66e9e50711aac9b98c19912c054fa2a46))
+* **flake:** updated lockfile [skip ci] ([1708119](https://github.com/webhippie/templater/commit/1708119d64b8a2123fc262b679954cab2a5f5668))
+* **flake:** updated lockfile [skip ci] ([181cf1b](https://github.com/webhippie/templater/commit/181cf1bb5c94377f8f7df3f503f1871309774cfd))
+
 ## [2.3.2](https://github.com/webhippie/templater/compare/v2.3.1...v2.3.2) (2026-02-02)
 
 ### Bugfixes
