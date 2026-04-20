@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.4.1](https://github.com/webhippie/templater/compare/v2.4.0...v2.4.1) (2026-04-20)
+
+### Bugfixes
+
+* **deps:** update alpine:3.23 docker digest to 5b10f43 ([#174](https://github.com/webhippie/templater/issues/174)) ([8a5d1df](https://github.com/webhippie/templater/commit/8a5d1df1537c7000ffafa20cff033c6a241be307))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([23ede00](https://github.com/webhippie/templater/commit/23ede0089291fb3016f83595da1d9302e2914009))
+* **flake:** updated lockfile [skip ci] ([6ef9aa7](https://github.com/webhippie/templater/commit/6ef9aa7e1ee5d42970a9aac03fddbb31e942bce6))
+* **flake:** updated lockfile [skip ci] ([13e4683](https://github.com/webhippie/templater/commit/13e46837dfddb885de387e0ce273fe7d24f0ebd8))
+
 ## [2.4.0](https://github.com/webhippie/templater/compare/v2.3.2...v2.4.0) (2026-03-30)
 
 ### Dependencies
