@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.4.2](https://github.com/webhippie/templater/compare/v2.4.1...v2.4.2) (2026-04-27)
+
+### Dependencies
+
+* **patch:** update module github.com/rs/zerolog to v1.35.1 ([#175](https://github.com/webhippie/templater/issues/175)) ([bd3d243](https://github.com/webhippie/templater/commit/bd3d2430cf57a37c1a193fa000372925146fb9b3))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([9336d24](https://github.com/webhippie/templater/commit/9336d24a7f0141e3953e01326ac91a4c553067ee))
+
 ## [2.4.1](https://github.com/webhippie/templater/compare/v2.4.0...v2.4.1) (2026-04-20)
 
 ### Bugfixes
