@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.5.0](https://github.com/webhippie/templater/compare/v2.4.2...v2.5.0) (2026-05-25)
+
+### Features
+
+* upgrade build process to go 1.25 ([6cfe714](https://github.com/webhippie/templater/commit/6cfe714cdd6a5d2f3102eee0f1127eec4e3bd4e8))
+* upgrade required go version to 1.26 ([f0662b2](https://github.com/webhippie/templater/commit/f0662b2d7833b1cf37d5adcef7425e058ff26a6c))
+
+### Bugfixes
+
+* **deps:** pin golang docker tag to ac09a5f ([#179](https://github.com/webhippie/templater/issues/179)) ([42d3b70](https://github.com/webhippie/templater/commit/42d3b7098b2ae95ab2228fe96990fcebdcd5fb17))
+
+### Dependencies
+
+* **minor:** update golang docker tag to v1.26.3 ([#180](https://github.com/webhippie/templater/issues/180)) ([2abb810](https://github.com/webhippie/templater/commit/2abb810dce2e5b6cd98e3f4bb14d280ad103d6cc))
+
+### Miscellaneous
+
+* enable skip-package-name-collision-with-go-std for revive ([3f5eb97](https://github.com/webhippie/templater/commit/3f5eb9711b7cb976c065ed7d942bf4a81891900f))
+* **flake:** updated lockfile [skip ci] ([db975f7](https://github.com/webhippie/templater/commit/db975f74baea346bf5f23dddd36fe58602ee2e15))
+* **flake:** updated lockfile [skip ci] ([6e74a37](https://github.com/webhippie/templater/commit/6e74a3772018f68bf7558998f19933731c00f555))
+* **flake:** updated lockfile [skip ci] ([1a95085](https://github.com/webhippie/templater/commit/1a950855d4ce1b9d86c3c08b523cde44293d5d6c))
+* **flake:** updated lockfile [skip ci] ([322395c](https://github.com/webhippie/templater/commit/322395cd693856ab11b074b41842b8fcc122cb00))
+* replace nixfmt package ([8b37a58](https://github.com/webhippie/templater/commit/8b37a584a343216b770fd374daf71080e9c4b3f3))
+
 ## [2.4.2](https://github.com/webhippie/templater/compare/v2.4.1...v2.4.2) (2026-04-27)
 
 ### Dependencies
