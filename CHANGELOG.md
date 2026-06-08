@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.5.1](https://github.com/webhippie/templater/compare/v2.5.0...v2.5.1) (2026-06-08)
+
+### Dependencies
+
+* **patch:** update golang docker tag to v1.26.4 ([#183](https://github.com/webhippie/templater/issues/183)) ([d4b07ef](https://github.com/webhippie/templater/commit/d4b07ef5df9a0d45b2c1ddd65a9df646ac709cb6))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([cea0690](https://github.com/webhippie/templater/commit/cea06907c5e3778b6e5d055d563092bd765c77b1))
+* **flake:** updated lockfile [skip ci] ([e930c94](https://github.com/webhippie/templater/commit/e930c945738713892638f0087d012e7a2e2a1bfa))
+
 ## [2.5.0](https://github.com/webhippie/templater/compare/v2.4.2...v2.5.0) (2026-05-25)
 
 ### Features
