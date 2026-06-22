@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.6.1](https://github.com/webhippie/templater/compare/v2.6.0...v2.6.1) (2026-06-22)
+
+### Bugfixes
+
+* **deps:** update docker digests ([#188](https://github.com/webhippie/templater/issues/188)) ([02f5863](https://github.com/webhippie/templater/commit/02f5863a2c8987e1d7b7f6b3a8b934259a6d6fe2))
+* **deps:** update docker digests ([#189](https://github.com/webhippie/templater/issues/189)) ([c454deb](https://github.com/webhippie/templater/commit/c454deb3f2755174641a628fd474336626b9a958))
+* **deps:** update docker digests ([#190](https://github.com/webhippie/templater/issues/190)) ([84fb4d9](https://github.com/webhippie/templater/commit/84fb4d99cbcdc575bd4fa15b1594bac47db4f232))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([9f88833](https://github.com/webhippie/templater/commit/9f8883338d647f3dcb5c63240d1f2d4ad46f14d9))
+
 ## [2.6.0](https://github.com/webhippie/templater/compare/v2.5.1...v2.6.0) (2026-06-15)
 
 ### Bugfixes
