@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.7.0](https://github.com/webhippie/templater/compare/v2.6.3...v2.7.0) (2026-09-14)
+
+### Features
+
+* restructure repo and build processes ([5fb1114](https://github.com/webhippie/templater/commit/5fb1114ac1b2fa6ec72a438ed32f5e0a81832809))
+
+### Bugfixes
+
+* **deps:** update golang:1.27.1-alpine docker digest to cf6fca6 ([#209](https://github.com/webhippie/templater/issues/209)) ([36693ee](https://github.com/webhippie/templater/commit/36693ee5d1088da3f19737ad87183d41ad88148c))
+
+### Dependencies
+
+* **minor:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.26.0 ([#210](https://github.com/webhippie/templater/issues/210)) ([5d4cbbe](https://github.com/webhippie/templater/commit/5d4cbbe0530cdbca7d44aacdf276c6e7942dec7e))
+* **minor:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.27.0 ([#212](https://github.com/webhippie/templater/issues/212)) ([f73b04a](https://github.com/webhippie/templater/commit/f73b04a470dcc4b6a10200105fe8bb9972cc1aab))
+* **minor:** update dependency hugo-extended to v0.166.0 ([#213](https://github.com/webhippie/templater/issues/213)) ([419be8b](https://github.com/webhippie/templater/commit/419be8be314558de643e09a6a9db7d9dd12fcade))
+* **minor:** update dependency task to v3.53.1 ([#211](https://github.com/webhippie/templater/issues/211)) ([a07a078](https://github.com/webhippie/templater/commit/a07a078b195a7c506f2e9e50a3bc1f903e133433))
+* **minor:** update golang docker tag to v1.27.0 ([#205](https://github.com/webhippie/templater/issues/205)) ([7f4ebde](https://github.com/webhippie/templater/commit/7f4ebde00fed3cf76c085f3c9239f3b8e2b57bc5))
+* **minor:** update module github.com/stretchr/testify to v1.12.0 ([#203](https://github.com/webhippie/templater/issues/203)) ([c1c8d97](https://github.com/webhippie/templater/commit/c1c8d97ecd6ddfd514f8627cbfd0e846707e7bd8))
+* **patch:** update dependency prek to v0.5.3 ([#214](https://github.com/webhippie/templater/issues/214)) ([5e35462](https://github.com/webhippie/templater/commit/5e35462f58bd321e3ba2a80ba36c4e1d85efb452))
+* **patch:** update golang docker tag to v1.27.1 ([#208](https://github.com/webhippie/templater/issues/208)) ([3a898aa](https://github.com/webhippie/templater/commit/3a898aaaa6da3d5c0ab9620d67d9caa97242f00c))
+* **patch:** update module github.com/stretchr/testify to v1.12.1 ([#204](https://github.com/webhippie/templater/issues/204)) ([1847511](https://github.com/webhippie/templater/commit/184751109be64eab6e4b4581226d2172812f45a3))
+
 ## [2.6.3](https://github.com/webhippie/templater/compare/v2.6.2...v2.6.3) (2026-08-17)
 
 ## [2.6.2](https://github.com/webhippie/templater/compare/v2.6.1...v2.6.2) (2026-07-13)
