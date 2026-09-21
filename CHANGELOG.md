@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.7.1](https://github.com/webhippie/templater/compare/v2.7.0...v2.7.1) (2026-09-21)
+
+### Bugfixes
+
+* **deps:** update alpine:3.24 docker digest to 294b683 ([#218](https://github.com/webhippie/templater/issues/218)) ([b90209a](https://github.com/webhippie/templater/commit/b90209a1a9883f94c0f42bac3d4a0d588611eb63))
+* **deps:** update docker digests ([#216](https://github.com/webhippie/templater/issues/216)) ([1232664](https://github.com/webhippie/templater/commit/1232664d879c466cbb3aadab5a1eaa08285eaad9))
+* **deps:** update docker digests ([#217](https://github.com/webhippie/templater/issues/217)) ([d294fc1](https://github.com/webhippie/templater/commit/d294fc17f1891e3ed921bca1bc2fa5cf84d9e198))
+
+### Dependencies
+
+* **mise:** update dependency goreleaser to v2.18.2 ([#215](https://github.com/webhippie/templater/issues/215)) ([88c9227](https://github.com/webhippie/templater/commit/88c922767f13e2c714fc80d52e3228e4aa559142))
+
 ## [2.7.0](https://github.com/webhippie/templater/compare/v2.6.3...v2.7.0) (2026-09-14)
 
 ### Features
