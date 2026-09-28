@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.7.2](https://github.com/webhippie/templater/compare/v2.7.1...v2.7.2) (2026-09-28)
+
+### Bugfixes
+
+* **deps:** update golang:1.27.1-alpine docker digest to 8a5910f ([#219](https://github.com/webhippie/templater/issues/219)) ([98d15fb](https://github.com/webhippie/templater/commit/98d15fb0b5bee7ce5009a965687858d22a352b69))
+
+### Dependencies
+
+* **mise:** update dependency golangci-lint to v2.14.0 ([#220](https://github.com/webhippie/templater/issues/220)) ([facbabe](https://github.com/webhippie/templater/commit/facbabe8c61128a3ab4cad7fe07800fc63bc8a3e))
+
 ## [2.7.1](https://github.com/webhippie/templater/compare/v2.7.0...v2.7.1) (2026-09-21)
 
 ### Bugfixes
