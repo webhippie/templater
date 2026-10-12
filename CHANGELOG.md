@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.7.3](https://github.com/webhippie/templater/compare/v2.7.2...v2.7.3) (2026-10-12)
+
+### Bugfixes
+
+* **deps:** update golang:1.27.2-alpine docker digest to f92b6ef ([#231](https://github.com/webhippie/templater/issues/231)) ([582f67f](https://github.com/webhippie/templater/commit/582f67fff1d5d6b4ce314f51e3524532453e705f))
+
+### Dependencies
+
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.28.0 ([#227](https://github.com/webhippie/templater/issues/227)) ([6cc9f5d](https://github.com/webhippie/templater/commit/6cc9f5da1333da5ae834540d5216df86379956cf))
+* **mise:** update dependency go to v1.27.2 ([#228](https://github.com/webhippie/templater/issues/228)) ([7b90d92](https://github.com/webhippie/templater/commit/7b90d9263290c0be9e601072f8280fbb0e9c69d6))
+* **mise:** update dependency goreleaser to v2.18.3 ([#230](https://github.com/webhippie/templater/issues/230)) ([61cf26c](https://github.com/webhippie/templater/commit/61cf26ce41ca3f6e9bf3ab5766ebe8230a9f20ae))
+* **mise:** update dependency hugo-extended to v0.167.0 ([#223](https://github.com/webhippie/templater/issues/223)) ([1337f3a](https://github.com/webhippie/templater/commit/1337f3a3be37ab0b10c06a3f56c086f6aabde8bb))
+* **mise:** update dependency prek to v0.5.4 ([#222](https://github.com/webhippie/templater/issues/222)) ([7061426](https://github.com/webhippie/templater/commit/7061426b8fbd8c07ad38e7be430eabb9df25320b))
+* **mise:** update dependency prek to v0.5.5 ([#226](https://github.com/webhippie/templater/issues/226)) ([48f28d0](https://github.com/webhippie/templater/commit/48f28d061b014c4e24ca6e906443d83f83a24be9))
+* **mise:** update dependency task to v3.54.0 ([#225](https://github.com/webhippie/templater/issues/225)) ([653af67](https://github.com/webhippie/templater/commit/653af67183d3e2d246c9aeaa1b0437ec232ba881))
+* **patch:** update golang docker tag to v1.27.2 ([#229](https://github.com/webhippie/templater/issues/229)) ([69250ab](https://github.com/webhippie/templater/commit/69250ab0561add3bd02a951a554bdb764227e0b5))
+
 ## [2.7.2](https://github.com/webhippie/templater/compare/v2.7.1...v2.7.2) (2026-09-28)
 
 ### Bugfixes
