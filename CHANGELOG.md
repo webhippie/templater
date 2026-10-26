@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.7.4](https://github.com/webhippie/templater/compare/v2.7.3...v2.7.4) (2026-10-26)
+
+### Bugfixes
+
+* **deps:** update alpine:3.24 docker digest to 71e9b7b ([#243](https://github.com/webhippie/templater/issues/243)) ([cc9222f](https://github.com/webhippie/templater/commit/cc9222ffdbe1c432e29588a31a2f9c5212050d9b))
+* **deps:** update alpine:3.24 docker digest to be26560 ([#247](https://github.com/webhippie/templater/issues/247)) ([349097f](https://github.com/webhippie/templater/commit/349097f133debd859fd2a6eb76a4d22606b1bc9a))
+* **deps:** update docker digests ([#242](https://github.com/webhippie/templater/issues/242)) ([c7630ab](https://github.com/webhippie/templater/commit/c7630ab3b17d10e33e3f06d44134a62061d38863))
+* **deps:** update golang:1.27.3-alpine docker digest to b8c9b82 ([#244](https://github.com/webhippie/templater/issues/244)) ([6c797bb](https://github.com/webhippie/templater/commit/6c797bb4e9847e2ebfd5df56afed21d6423c8d6d))
+
+### Dependencies
+
+* **mise:** update dependency cosign to v3.1.4 ([#240](https://github.com/webhippie/templater/issues/240)) ([9693ead](https://github.com/webhippie/templater/commit/9693eade37e47d93b2879b0b91e6a8b73920e308))
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.29.0 ([#234](https://github.com/webhippie/templater/issues/234)) ([447ca9c](https://github.com/webhippie/templater/commit/447ca9cac3cc0c9974706a8f49b83dac16f8a462))
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.30.0 ([#245](https://github.com/webhippie/templater/issues/245)) ([9f45d16](https://github.com/webhippie/templater/commit/9f45d16fbd58ed06a166408b7fe6bb7a8c208564))
+* **mise:** update dependency go to v1.27.3 ([#238](https://github.com/webhippie/templater/issues/238)) ([2b4f1d9](https://github.com/webhippie/templater/commit/2b4f1d9a72360ce3677e40b6c6a22782a94dae54))
+* **mise:** update dependency golangci-lint to v2.15.0 ([#235](https://github.com/webhippie/templater/issues/235)) ([5aeb6a9](https://github.com/webhippie/templater/commit/5aeb6a93c0d2d6193a80d2a22632d9c584ef6596))
+* **mise:** update dependency goreleaser to v2.19.0 ([#246](https://github.com/webhippie/templater/issues/246)) ([1ac9244](https://github.com/webhippie/templater/commit/1ac924410618de0276dabd4f4e139f6b1be5aae2))
+* **mise:** update dependency hugo-extended to v0.168.0 ([#233](https://github.com/webhippie/templater/issues/233)) ([293ca28](https://github.com/webhippie/templater/commit/293ca28ca612b6c4d85ff80b0e9a1c5c6f489a0c))
+* **mise:** update dependency prek to v0.5.6 ([#236](https://github.com/webhippie/templater/issues/236)) ([ee5e80c](https://github.com/webhippie/templater/commit/ee5e80ca20806f7470a9b446d7bdcc96a21702ed))
+* **mise:** update dependency prek to v0.5.7 ([#241](https://github.com/webhippie/templater/issues/241)) ([1a9e9d9](https://github.com/webhippie/templater/commit/1a9e9d9cf3bdb9d391f048af92f55e0ca2b04b69))
+* **patch:** update golang docker tag to v1.27.3 ([#239](https://github.com/webhippie/templater/issues/239)) ([1361b88](https://github.com/webhippie/templater/commit/1361b88ced8e1ba45d5a78a10c0e15303d8372cd))
+
 ## [2.7.3](https://github.com/webhippie/templater/compare/v2.7.2...v2.7.3) (2026-10-12)
 
 ### Bugfixes
