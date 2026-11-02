@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.7.5](https://github.com/webhippie/templater/compare/v2.7.4...v2.7.5) (2026-11-02)
+
+### Bugfixes
+
+* **deps:** update golang:1.27.3-alpine docker digest to d200d2d ([#248](https://github.com/webhippie/templater/issues/248)) ([fa971cd](https://github.com/webhippie/templater/commit/fa971cd7a5b48e3001f39f28dec85e70c99df486))
+
+### Dependencies
+
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.30.1 ([#251](https://github.com/webhippie/templater/issues/251)) ([7d3eeaf](https://github.com/webhippie/templater/commit/7d3eeaf7f20fad42f91d021e1990d5bce2c12d3b))
+* **mise:** update dependency hugo-extended to v0.169.0 ([#249](https://github.com/webhippie/templater/issues/249)) ([29dd15e](https://github.com/webhippie/templater/commit/29dd15eee12822709cdb76ab220216e5483985f0))
+* **mise:** update dependency prek to v0.5.9 ([#253](https://github.com/webhippie/templater/issues/253)) ([ac0b8e2](https://github.com/webhippie/templater/commit/ac0b8e2eca7c592937a5586b0e4032a2bda644c0))
+* **mise:** update node.js to v26 ([#252](https://github.com/webhippie/templater/issues/252)) ([307d6d9](https://github.com/webhippie/templater/commit/307d6d91a4e03651a95262f13788e2db87b09624))
+
 ## [2.7.4](https://github.com/webhippie/templater/compare/v2.7.3...v2.7.4) (2026-10-26)
 
 ### Bugfixes
