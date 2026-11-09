@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.7.6](https://github.com/webhippie/templater/compare/v2.7.5...v2.7.6) (2026-11-09)
+
+### Bugfixes
+
+* **deps:** update alpine:3.24 docker digest to f59abe6 ([#258](https://github.com/webhippie/templater/issues/258)) ([33fb7ec](https://github.com/webhippie/templater/commit/33fb7ec1319350597fc58cb9773ffb6cab489ea0))
+* **deps:** update docker digests ([#256](https://github.com/webhippie/templater/issues/256)) ([dbbf742](https://github.com/webhippie/templater/commit/dbbf742b404504db18ed6a63e244e8ecaf3a6869))
+* **deps:** update golang:1.27.3-alpine docker digest to fa3d596 ([#257](https://github.com/webhippie/templater/issues/257)) ([c24a306](https://github.com/webhippie/templater/commit/c24a306bd1a21c401ab7d02172f04a91b4358b81))
+
+### Dependencies
+
+* **mise:** update dependency goreleaser to v2.20.0 ([#255](https://github.com/webhippie/templater/issues/255)) ([dc831f0](https://github.com/webhippie/templater/commit/dc831f0796754a5f666834ca5a18e8157c370b23))
+* **mise:** update dependency prek to v0.5.10 ([#254](https://github.com/webhippie/templater/issues/254)) ([17658bb](https://github.com/webhippie/templater/commit/17658bb760785e922e5b17add2c212de301e9d58))
+
 ## [2.7.5](https://github.com/webhippie/templater/compare/v2.7.4...v2.7.5) (2026-11-02)
 
 ### Bugfixes
