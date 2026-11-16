@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.7.7](https://github.com/webhippie/templater/compare/v2.7.6...v2.7.7) (2026-11-16)
+
+* automated release update [skip ci] ([7d65b14](https://github.com/webhippie/templater/commit/7d65b147d8c4fd9ffafd2735a707db995a35bf49))
+
+### Dependencies
+
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.31.0 ([#262](https://github.com/webhippie/templater/issues/262)) ([7da3178](https://github.com/webhippie/templater/commit/7da31785ced8d0313f38650bf0595c8ef4156bf7))
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.31.1 ([#264](https://github.com/webhippie/templater/issues/264)) ([1a6c4da](https://github.com/webhippie/templater/commit/1a6c4dab91ddb5aef1a898614a86d349718b3f76))
+* **mise:** update dependency go to v1.27.4 ([#259](https://github.com/webhippie/templater/issues/259)) ([4eb4d55](https://github.com/webhippie/templater/commit/4eb4d5552705ef93289c71fdb18ec6f76334198f))
+* **mise:** update dependency goreleaser to v2.20.1 ([#261](https://github.com/webhippie/templater/issues/261)) ([5e92e2b](https://github.com/webhippie/templater/commit/5e92e2b7866a440044b59e17f9e2956ce9f3d6dd))
+* **mise:** update dependency goreleaser to v2.20.2 ([#263](https://github.com/webhippie/templater/issues/263)) ([877d29b](https://github.com/webhippie/templater/commit/877d29b3b48264837b4ea6a95bcd0f18ea49427d))
+* **mise:** update dependency hugo-extended to v0.170.0 ([#265](https://github.com/webhippie/templater/issues/265)) ([7c1e482](https://github.com/webhippie/templater/commit/7c1e482aff7039753d55e67f00e66af6dd0fc644))
+* **mise:** update dependency prek to v0.5.11 ([#267](https://github.com/webhippie/templater/issues/267)) ([fdcad01](https://github.com/webhippie/templater/commit/fdcad015bbb90ca21ca2d3bd57a184464fcabdb9))
+* **patch:** update golang docker tag to v1.27.4 ([#260](https://github.com/webhippie/templater/issues/260)) ([96348a4](https://github.com/webhippie/templater/commit/96348a45c35bd7cea9caee231833f965c6da96e6))
+
 ## [2.7.6](https://github.com/webhippie/templater/compare/v2.7.5...v2.7.6) (2026-11-09)
 
 ### Bugfixes
