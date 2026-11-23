@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.8.0](https://github.com/webhippie/templater/compare/v2.7.7...v2.8.0) (2026-11-23)
+
+* automated release update [skip ci] ([80755a9](https://github.com/webhippie/templater/commit/80755a9ba253fa1f1c795576dc1a64b09adebc02))
+
+### Features
+
+* switch to plain hugo and resolve deprecations ([e267e9f](https://github.com/webhippie/templater/commit/e267e9ff6c6d872ca1a51765da05813073097463))
+
+### Bugfixes
+
+* **deps:** update golang:1.27.4-alpine docker digest to 70bd7dd ([#266](https://github.com/webhippie/templater/issues/266)) ([5ffbff7](https://github.com/webhippie/templater/commit/5ffbff760b3e1b7438301b2e9709158ad19996ff))
+
+### Dependencies
+
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.31.3 ([#268](https://github.com/webhippie/templater/issues/268)) ([9b9f50e](https://github.com/webhippie/templater/commit/9b9f50e8034318a357665f0221ce566fd09f6a56))
+* **mise:** update dependency github:cloudsmith-io/cloudsmith-cli to v1.31.4 ([#271](https://github.com/webhippie/templater/issues/271)) ([5cdbcaf](https://github.com/webhippie/templater/commit/5cdbcafd42f068de7200b4918c553921615b219b))
+* **mise:** update dependency goreleaser to v2.20.3 ([#270](https://github.com/webhippie/templater/issues/270)) ([4511c2b](https://github.com/webhippie/templater/commit/4511c2b8535f5f327e610cd4c789b6fd51f089be))
+* **mise:** update dependency hugo-extended to v0.170.1 ([#269](https://github.com/webhippie/templater/issues/269)) ([ac2f346](https://github.com/webhippie/templater/commit/ac2f3467267d05f9cb354fb46b13dfc7a27a52f4))
+
 ## [2.7.7](https://github.com/webhippie/templater/compare/v2.7.6...v2.7.7) (2026-11-16)
 
 * automated release update [skip ci] ([7d65b14](https://github.com/webhippie/templater/commit/7d65b147d8c4fd9ffafd2735a707db995a35bf49))
